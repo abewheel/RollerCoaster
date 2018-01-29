@@ -26,4 +26,4 @@ This repository contains the Visual Studio 2017 project code for Roller Coaster.
 ## Technical Details
 
 
-Roller Coaster was implemented in Visual Studio 2017 using C++ and OpenGL. It accepts a list of control matices to define each of the spline segments, uses an s value of 1/2, and interpolates the u parameter between 0.0 and 1.0 in increments of 0.01 for each spline segment. It calculates the spline tangents, normals, and binormals at each point for a realistic roller coaster ride simulation. Roller Coaster utilizes OpenGL's texture mapping functionality for the ground and sky box
+Roller Coaster was implemented in Visual Studio 2017 using C++ and OpenGL. Most of the action occurs in RollerCoaster/assign2/assign2.cpp. It accepts a list of control matices to define each of the spline segments, uses an s value of 1/2, and interpolates the u parameter between 0.0 and 1.0 in increments of 0.01 for each spline segment. It calculates the spline tangents, normals, and binormals at each point for a realistic roller coaster ride simulation. Roller Coaster utilizes OpenGL's texture mapping functionality for the ground and sky box
